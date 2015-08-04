@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta lang="UTF-8">
+<title>Grid Layout</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	
+	<script src="jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron">
+		<h1>Learn to Create Websites</h1>
+		<p>In today's world internet is the most popular way of connecting with the people. 
+		At <a href="http://www.tutorialrepublic.com" target="_blank">tutorialrepublic.com</a>
+		you will learn the essential of web development technologies along with real life practice example, 
+		so that you can create your own website to connect with the people around the world. </p>
+		<a href="http://www.w3school.com/" target="_blank" class="btn btn-success btn-lg">Get Started Today &raquo;</a>
+	</div>
+	<div class="row" style="background-color:#FFF000; font-family:monotype corsiva; ">
+		<div class="col-xs-4">
+			<h2>HTML</h2>
+			<p>HTML is a markup language that is used for creating web pages. The HTML tutorial 
+			<a href="http://w3school.com/" target="_blank">w3school.com</a> section will help you understand the basics of HTML, 
+			so that you can create your own web pages or website.</p>
+			<p><a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success btn-">Learn More &raquo;</a></p></p>
+		</div>
+	
+		<div class="col-xs-4">
+			<h2>CSS</h2>
+			<p>CSS is used for describing the presentation of web pages. The CSS tutorial section will help you learn the essentials of CSS, 
+			so that you can fine control the style and layout of your HTML document.</p>
+			<a href="http://tutorialrepublic.com/" target="_blank" class="btn btn-success">Learn More &raquo</a>
+		</div>
+		
+		<div class="col-xs-4">
+			<h2>Bootstrap</h2>
+			<p>Bootstrap is a powerful front-end framework for faster and easier web development. The Bootstrap tutorial section will help you
+			learn the techniques of Bootstrap so that you can quickly create your own website.</p>
+			<a href="http://tutorialpoint.com/" class="btn btn-success" target="_blank">Learn More &raquo;</a>
+		</div>
+		
+	</div>
+	<div class="row" style="box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+		<div class="col-xs-4">
+			<h2>HTML</h2>
+			<p>HTML is a markup language that is used for creating web pages. The HTML tutorial section will help you understand the basics of HTML, 
+			so that you can create your own web pages or website.</p>
+			<p><a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success btn-">Learn More &raquo;</a></p></p>
+		</div>
+	
+		<div class="col-xs-4">
+			<h2>CSS</h2>
+			<p>CSS is used for describing the presentation of web pages. The CSS tutorial section will help you learn the essentials of CSS, 
+			so that you can fine control the style and layout of your HTML document.</p>
+			<a href="http://tutorialrepublic.com/" target="_blank" class="btn btn-success btn-md">Learn More &raquo</a>
+		</div>
+		
+		<div class="col-xs-4">
+			<h2>Bootstrap</h2>
+			<p>Bootstrap is a powerful front-end framework for faster and easier web development. The Bootstrap tutorial section will help you
+			learn the techniques of Bootstrap so that you can quickly create your own website.</p>
+			<a href="http://tutorialpoint.com/" class="btn btn-success" target="_blank">Learn More &raquo;</a>
+		</div>
+		
+	</div>
+	
+</div>
+
+<div class="container"> 
+	<h1>Bootstrap Grid System Example: Stacked-to-horizontal</h1> 
+		<div class="row"> 
+			<div class="col-md-6" style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;"> 
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> 
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+				eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p> 
+			</div> 
+			
+			<div class="col-md-6" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;"> 
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. </p> 
+				<p> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+				eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p> 
+			</div> 
+		</div>
+</div>
+		
+<div class="container"> 
+	<h1>Bootstrap Grid System Example: Medium and Large Device</h1> 
+		<div class="row"> 
+			<div class="col-md-6 col-lg-4"> 
+				<p>We have seen the basic grid system in Example: Stacked-to-horizontal. Here we had used 2 divs 
+				and gave them the 50%/50% split at the medium view port width: </p> 
+				
+				<p>But at large your design could really be better as a 33%/66%. So what we are going to do is set 
+				it up to change the column widths at the breakpoint: </p> 
+			</div> 
+			
+			<div class="col-md-8 col-lg-8"> 
+				<p> Now Bootstrap is going to say at the medium size, I look at classes with md in them and use those. 
+				At the large size, I look at classes with the word lg in them and use those. 
+				In this case, our 2 divs will go from a 50%/50% split and then up to a 33%/66%. </p>
+				<p>Check it out in the following example.(Here styling for each column is used. You can avoid it.) </p> 
+			</div> 
+		</div>
+</div>
+<hr>
+<div class="container"> 
+	<h1>Bootstrap Grid System Example: Mobile, Tablet, Desktops</h1> 
+		<div class="row"> 
+			<div class="col-sm-3 col-md-6 col-lg-8"> 
+				<p>We have seen an example for Medium and Large Device. Now let us take it to another level, 
+				where we would want to change it for the extra small phone size as well. </p>
+				<p>Say we want to add the option for the columns to be split 25%/75% for tablets, we go like this: </p> 
+			</div> 
+			
+			<div class="col-sm-9 col-md-6 col-lg-4"> 
+				<p>Now this gives us 3 different column layouts at each point. On a phone, it will be 25% on the left, and 75% on the right. 
+				On a tablet, it will be 50%/50% again, and on a large view port, it will be 33%/66%. </p>
+				<p>3 different layouts for each of the 3 responsive sizes. Check it out in the following example. 
+				(Here styling for each column is used. You can avoid it.)</p>
+			</div> 
+		</div>
+</div>
+
+</body>
+
+</body>
+</html>

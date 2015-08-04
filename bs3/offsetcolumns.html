@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Offset Columns</title>
+		
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/flowtype.js"></script>
+		 <script type="text/javascript"> 
+        $j = jQuery.noConflict();
+        $j(document).ready(function() {
+            /*$j('body').flowtype({
+                minimum   : 500,
+                maximum   : 1200,
+                minFont   : 12,
+                maxFont   : 20
+              });
+              */
+            $j("body").flowtype({
+                minFont: 16,
+                maxFont: 40,
+                fontRatio: 65
+            });
+            $j("#heading").flowtype({
+                fontRatio: 36
+            });
+            $j("#para1").flowtype({
+                minFont: 12,
+                maxFont : 22,
+                fontRatio: 20
+            });
+            
+        });
+    </script>
+
+<style type="text/css">
+body {
+   font-size: 12px;
+}
+
+h1,h2,p {
+   line-height: 1.45;
+}
+
+
+
+
+</style>
+		
+		
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron">
+		<h1 id="heading">Offset Examples</h1>
+			<p id="para1">Offsets are a useful feature for more specialized layouts. 
+			They can be used to push columns over for more spacing, 
+			for example. The .col-xs=* classes don’t support offsets, 
+			but they are easily replicated by using an empty cell.
+			To use offsets on large displays, use the .col-md-offset-* classes. 
+			These classes increase the left margin of a column by * columns where * range from 1 to 11.
+			we will center this using class .col-md-offset-3.</p>
+	</div>
+			<div class="row">
+				<div class="col-xs-6 col-md-offset-3">
+					<h2>Hello Welcome to Bootstrap Offset Examples</h2>
+						<p>Offsets are a useful feature for more specialized layouts. 
+						They can be used to push columns over for more spacing, 
+						for example. The .col-xs=* classes don’t support offsets, 
+						but they are easily replicated by using an empty cell. 
+						To use offsets on large displays, use the .col-md-offset-* classes. 
+						These classes increase the left margin of a column by * columns where * range from 1 to 11. 
+						we will center this using class .col-md-offset-3.</p>
+				</div>
+			</div>
+</div>
+
+<div class="container"> 	
+	<h1>Hello, world!</h1>
+		<div class="row" > 
+			<div class="col-xs-6 col-md-offset-3"> 
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p> 
+			</div> 
+		</div> 
+</div>
+</body>
+</html>

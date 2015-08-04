@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Modal Plugin</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+		
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron">
+		<h1>Bootstrap Modal Sizing</h1>
+			<p>Modals have two optional sizes, available via modifier classes to be placed on a .modal-dialog.</p>
+	</div>
+		
+		<div class="jumbotron">
+			<!-- Large modal -->
+				<button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">
+					Large modal
+				</button>
+			<div class="modal bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+							&times;
+						</button>
+						<h4 class="modal-title">This is Large Modal</h4>
+					</div>
+				</div>
+			  </div>
+			</div>
+
+			<!-- Small modal -->
+			<button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+
+			<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="model-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+							&times
+						</button>
+						<h4 class="modal-title">This is Small Modal</h4>
+				</div>
+			  </div>
+			</div>
+		</div>
+	
+</div>
+</body>
+</html>	

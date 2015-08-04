@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Alert Plugin</title>
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Bootstrap Alert Plugin via Method</h1>	
+	</div>
+		<div>
+			<div id="myAlert" class="alert alert-success">
+			   <a href="#" class="close" data-dismiss="alert">&times;</a>
+			   <strong>Success!</strong> the result is successful.
+			</div>
+
+			<script type="text/javascript">
+			$(function(){
+			   $("#myAlert").bind('closed.bs.alert', function () {
+				  alert("Alert message box is closed.");
+			   });
+			});
+			</script>  
+		</div>
+	
+</div>
+</body>
+</html>	

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta  charset="UTF-8">
+<title>Bootstrap Thumbnail</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h2>Bootstrap Thumbnail</h2>
+			<p><ul><li>A lot of sites need a way to lay out images,videos,text, etc in a grid, and Bootstrap 
+			has an easy way to do this with thumbnails. To create thumbnails using Bootstrap:</li>
+			<li>Add an &lt;a&gt; tag with the class of .thumbnail around an image.</li>
+			<li>This adds four pixels of padding and a gray border.</li>
+			<li>On hover, an animated glow outlines the image.</li></ul></p>
+	</div>
+	
+		<div class="row">
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+				<img src="twitter.jpg">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+				<img src="twitter.jpg">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+				<img src="twitter.jpg">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<a href="#" class="thumbnail">
+				<img src="twitter.jpg">
+				</a>
+			</div>
+		</div>	
+		
+		<div class="jumbotron">
+			<div class="row">
+				<h2>Adding Custom Content</h2>
+					<p><ul><li>Now that we have a basic thumbnail, it's possible to add any kind of HTML content like headings, paragraphs,
+					or buttons into thumbnails. Follow the steps below:</li></ul>
+					
+					<ol><li>Change the &lt;a&gt; tag that has a class of .thumbnail to a &lt;div&gt;.</li>
+					<li>Inside of that &lt;div&gt;, you can add anything you need. As this is a &lt;div&gt;, 
+					we can use the default span-based naming convention for sizing.</li>
+					<li>If you want to group multiple images, place them in an unordered list, and each list item will be floated to the left.</li></ol></p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="twitter.jpg">
+				</div>
+					<div class="caption">	
+						<h3>Thumbnail Label</h3>
+							<p>This is Thumbnail Example.</p>
+								<button type="button" class="btn btn-default">Button</button>
+								<button type="button" class="btn btn-primary">Button</button>
+					</div>
+			</div>	
+			
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="twitter.jpg">
+				</div>
+					<div class="caption">	
+						<h3>Thumbnail Label</h3>
+							<p>This is Thumbnail Example.</p>
+								<button type="button" class="btn btn-default">Button</button>
+								<button type="button" class="btn btn-primary">Button</button>
+					</div>
+			</div>	
+			
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="twitter.jpg">
+				</div>
+					<div class="caption">	
+						<h3>Thumbnail Label</h3>
+							<p>This is Thumbnail Example.</p>
+								<button type="button" class="btn btn-default">Button</button>
+								<button type="button" class="btn btn-primary">Button</button>
+					</div>
+			</div>	
+			
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="twitter.jpg">
+				</div>
+					<div class="caption">	
+						<h3>Thumbnail Label</h3>
+							<p>This is Thumbnail Example.</p>
+								<button type="button" class="btn btn-default">Button</button>
+								<button type="button" class="btn btn-primary">Button</button>
+					</div>
+			</div>	
+		</div>
+		
+</div>
+</body>
+</html>	

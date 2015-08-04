@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Responsive Utilities</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+		
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h2>Bootstrap Responsive Utilities</h2>
+			<p><ul><li>Bootstrap provides some handful helper classes, for faster mobile-friendly development. 
+			These can be used for showing and hiding content by device via media query combined with large, 
+			small, and medium devices.</li></ul></p>
+			
+			<p><ul><li> Responsive utilities are currently only available for block and table toggling.</li></ul></p>
+	</div>
+
+			<div class="container">
+				<div class="row visible-on">
+					
+					<div class="col-xs-6 col-sm-3 col-md-3" style="box-shadow:inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+						<span class="hidden-xs">Extra Small</span>
+						<img src="images/cars.jpg" class="img-responsive ">
+						<span class="visible-xs">&#x2713;Visible on x-small</span>
+
+					</div>
+					
+					<div class="col-xs-6 col-sm-3 col-md-3" style="box-shadow:inset 1px -1px 1px #444,inset -1px 1px 1px #444;">
+						<span class="hidden-sm">Small</span>
+						<img src="images/cars.jpg" class="img-responsive img-screen">
+						<span class="visible-sm">&#x2713;Visible on Small</span>
+					</div>
+
+					 <div class="clearfix visible-xs"></div>
+					<div class="col-xs-6 col-sm-3 col-md-3" style="box-shadow:inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+						<span class="hidden-md">Medium</span>
+						<img src="images/cars.jpg" class="img-responsive img-screen img-screen1">
+						<span class="visible-md">&#x2713;Visible on Medium</span>
+					</div>
+					
+					<div class="col-xs-6 col-sm-3 col-md-3" style="box-shadow:inset 1px -1px 1px #444,inset -1px 1px 1px #444;">
+						<span class="hidden-lg">Large</span>
+						
+						<span class="visible-lg">&#x2713;Visible on Large</span>
+						<img src="images/cars.jpg" class="img-responsive img-screen img-screen1 ">
+					</div>
+					
+				</div>
+			</div>
+	
+	
+</div>
+	
+</body>
+</html>

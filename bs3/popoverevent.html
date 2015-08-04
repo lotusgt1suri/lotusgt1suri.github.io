@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Popover Plugin</title>
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Bootstrap Popover Plugin via Event</h1>
+	</div>
+		<div>
+			<button type="button" class="btn btn-primary popover-show" data-toggle="popover" data-replacement="right" title="Popover Title" data-content="Some text in Popover Right">Popover on Right</button>
+		</div>
+		<script>
+			$(function() { $('.popover-show').popover('show');});
+			$(function() { $('.popover-show').on('shown.bs.popover', function(){
+			alert("alert message on show");})});
+		</script>
+		
+</div>
+</body>
+</html>	

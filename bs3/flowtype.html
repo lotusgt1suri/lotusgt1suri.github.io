@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flow Type js</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/flowtype.js"></script>
+	
+		<script type="text/javascript">
+		 $j = jQuery.noConflict();
+			$j(document).ready(function() {
+		$j('body').flowtype({
+		 minimum   : 500,	//flowtype.js will stop resizing text once the element  
+		 maximum   : 1200,	//width become smaller than 500px or larger than 1200px.
+		 
+		 minFont   : 12,	//flowtype.js will stop resizing text once the font-size 
+		 maxFont   : 40,	//become smaller than 12px or larger than 40px.
+		 
+		 fontRatio : 30,	//when using fontratio, increase the value to make the font smaller(and vice versa).
+		 lineRatio : 1.45
+		});
+		$j("#head1").flowtype({
+					fontRatio: 20
+				});
+				
+				$j("#head2").flowtype({
+					fontRatio: 30
+				});
+				
+				$j("#para").flowtype({
+					fontratio: 30
+				});
+		});
+		</script>
+
+		
+	
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron">
+		<h1 id="head1" style="font-family:batmanforeveralternate;">Flow Type Example</h1>
+			<h2 id="head2" style="color:blue;"> What does FlowType.JS do? </h2>
+		<p id="para" align="justify" style="font-family:dejavusans;">
+		Ideally, the most legible typography contains between 45 and 75 characters per line. 
+		This is difficult to accomplish for all screen widths with only CSS media-queries. 
+		FlowType.JS eases this difficulty by changing the font-size and subsequently the 
+		line-height based on a specific element's width. This allows for a perfect 
+		character count per line at any screen width.
+
+		Additional options, reviewed below, allow you to configure FlowType.JS to fit your needs. 
+		These options include element size thresholds, font-size thresholds and ratios.
+		The element size thresholds will stop FlowType.JS from performing its magic 
+		once the element reaches beyond specific pixel dimensions. The font-size 
+		thresholds will stop FlowType.JS from resizing the text beyond certain 
+		font-sizes. Lastly, you have full control over the base font-size, 
+		so that you can set your typography perfectly.
+
+		FlowType.JS is extremely easy to use. Visit the getting started section, follow the four
+		easy steps and you will be on well on your way to performing magic.</p>
+	</div>

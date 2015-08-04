@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Tooltip Plugin</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+		
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Bootstrap Tooltip Via Data Attribute</h1>
+	</div>
+	
+		<div>
+			<h4>Tooltip Example for anchors</h4>
+				<p>
+					This is a <a href="#" class="tooltip-test" data-toggle="tooltip" title="Tooltip on left">Default Tooltip</a>
+					This is a <a href="#" class="tooltip-test" data-placement="left" data-toggle="tooltip" title="Tooltip on top left">Tooltip on Left</a>
+					This is a <a href="#" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on Top</a>
+					This is a <a href="#" data-toggle="tooltip" data-placement="bottom" title="Tooltip on Bottom">Tooltip on Bottom</a>
+					This is a <a href="#" data-toggle="tooltip" data-placement="right" title="Tooltip on Right">Tooltip on Right</a>
+				</p>
+			<hr>
+			<h4>Tooltip Example for Buttons</h4>
+				<p>
+					<button type="button" class="btn btn-default" data-toggle="tooltip" title="Tooltip on left">Default Tooltip</button>
+					<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on Left</button>
+					<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on Top">Tooltip on Top</button>
+					<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on Bottom">Tooltip on Bottom</button>
+					<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on Right">Tooltip on Right</button>
+				</p>
+			<script>
+				$(function() { $("[data-toggle='tooltip']").tooltip();});
+			</script>
+		</div>
+	
+</div>
+</body>
+</html>

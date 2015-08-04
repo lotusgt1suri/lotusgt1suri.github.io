@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Component Alignment</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+		
+</head>
+
+<body style="background-color:gray;">
+
+<div class="container-fluid">
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand">Tutorials Point</a>
+		</div>
+		
+		<!-- Left Align -->
+		<ul class="nav navbar-nav navbar-left">
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					Java
+						<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">jmeter</a></li>
+					<li><a href="#">EJB</a></li>
+					<li><a href="#">Jasper Report</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Seprated Link</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Another Seprated Link</a></li>
+				</ul>
+			</li>
+		</ul>
+		
+		<form class="navbar-form navbar-left" role="search">
+			<button type="button" class="btn btn-default">Left Align-Submit Button</button>
+		</form>
+		<p class="navbar-text navbar-left">Left Align-Text</p>
+		
+		<!-- Right Align -->
+		<ul class="nav navbar-nav navbar-right">
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle navbar-right" data-toggle="dropdown">
+					Java
+						<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">jmeter</a></li>
+							<li><a href="#">EJB</a></li>
+							<li><a href="#">Jasper Report</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Seprated Link</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Another Seprated Link</a></li>
+						</ul>
+			</li>
+		</ul>
+		
+		<form class="navbar-form navbar-right" role="search">
+			<button type="button" class="btn btn-default">Right Align-Submit Button</button>
+		</form>
+		<p class="navbar-right navbar-text">Right Align-Text</p>
+	</nav>
+	
+			<div class="jumbotron">
+				<h2>Component Alignment</h2>
+					<p><ul><li>You can align the components like nav links, forms, buttons, or text to left 
+					or right in a navbar using the utility classes .navbar-left or .navbar-right. Both 
+					classes will add a CSS float in the specified direction. The following example 
+					demonstrates this:</li></ul></p>
+			</div>
+	
+</div>
+
+</body>
+</html>

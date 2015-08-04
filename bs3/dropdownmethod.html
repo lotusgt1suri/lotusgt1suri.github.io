@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta  charset="UTF-8">
+<title>Bootstrap Dropdown Plugin</title>
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h3>The dropdown toggle has a simple method to show or hide the dropdown.</h3>
+	</div>
+	
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">Tutorials Point</a>
+			</div>
+				<div id="myexample">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">IOS</a></li>
+					<li><a href="#">SVN</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle">
+							JAVA
+							<b class="caret"></b>
+						</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Jmeter</a></li>
+								<li><a href="#">EJB</a></li>
+								<li><a href="#">Jasper Report</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Seprated Link</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Another Seprated Link</a></li>
+							</ul>
+					</li>	
+				</ul>	
+				</div>
+		</nav>
+	<script>
+		$(function(){
+			$(".dropdown-toggle").dropdown('toggle');
+			});
+	</script>
+	
+</div>	
+</body>
+</html>

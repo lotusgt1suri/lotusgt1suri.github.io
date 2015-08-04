@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Collapse Plugin</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron">
+		<h1>Bootstrap Collapse Plugin </h1>
+		<p>The collapse plugin makes it easy to make collapsing divisions of the page. 
+		Whether you use it to build accordion navigation or content boxes, 
+		it allows for a lot of content options.</p>
+	</div>
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a href="#collapseOne" data-toggle="collapse" data-parent="#accordion">
+							Click me to expand. Click me again to collapse. Section 1
+						</a>	
+					</h4>
+				</div>
+				<div id="collapseOne" class="panel-collapse collapse in">
+					<div class="panel-body">
+						Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+						cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
+						vice lomo.
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+							Click me to exapand. Click me again to collapse.Section 2
+						</a>
+					</h4>
+				</div>
+				<div id="collapseTwo" class="panel-collapse collapse">
+					<div class="panel-body">
+						Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+						cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
+						vice lomo.
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+							Click me to exapand. Click me again to collapse.Section 2
+						</a>
+					</h4>
+				</div>
+				<div id="collapseThree" class="panel-collapse collapse">
+					<div class="panel-body">
+						Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+						cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
+						vice lomo.
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="jumbotron">
+			<h2>Usage</h2>
+			<p><ol><li>data-toggle="collapse" is added to the link on which you click to expand or collapse the component.</li>
+			<li>href or a data-target attribute is added to the parent component, whose value is id of the child component.</li>
+			<li>data-parent attribute is added to is added for creating accordion like effect.</li></ol></p>
+		</div>
+	
+	
+</div>
+</body>
+</html>	

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>column ordering</title>
+	
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+		
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron">
+		<h1>Columns Ordering</h1>
+		<p>Another nice feature of Bootstrap grid system is that you can easily write the columns in an order, and show them in another one. You can easily change the order of built-in grid columns with .col-md-push-* and .col-md-pull-* modifier classes where * range from 1 to 11.
+
+In the following example we have two-columns layout with left column being the narrowest and acting as sidebar. We will swap the order of these columns using .col-md-push-* and .col-md-pull-* classes.</p>
+	</div>
+			
+			<div class="row">
+				<h3>Before Ordering</h3>
+					<div class="col-md-3" style="box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444">
+						<p>columns before ordering</p>
+					</div>
+					<div class="col-md-9" style="box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444">
+						<p>columns ordering example</p>
+					</div>
+			</div>
+			
+			<div class ="row">
+				<h3>After Ordering</h3>
+			<div class="col-md-3 col-md-push-9" style="box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444">			
+				<p>columns after ordering</p>
+			</div>
+			<div class="col-md-9 col-md-pull-3" style="box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444">
+				<p>Columns ordering Example</p>
+			</div>
+</div>
+
+</body>
+</html>

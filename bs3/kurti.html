@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>kurti</title>
+
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/owl.theme.css" rel="stylesheet">
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"><!-- for font-awesome font used in this project -->
+	
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	
+	<!-- super slider stylesheet -->
+	<style>
+		#owl-demo1 .owl-item div
+		{
+		  padding:5px;
+		}
+		#owl-demo1 .owl-item img
+		{
+		  display: block;
+		  width: 100%;
+		  height: auto;
+		  -webkit-border-radius: 3px;
+		  -moz-border-radius: 3px;
+		  border-radius: 3px;
+		}
+		</style>
+		
+	<!-- custom slider -->	
+	<style>
+		#owl-demo .item
+		{
+		  background: #3fbf79;
+		  padding: 0px 0px;
+		  margin: 0px;
+		  color: #FFF;
+		  -webkit-border-radius: 3px;
+		  -moz-border-radius: 3px;
+		  border-radius: 3px;
+		  text-align: center;
+		  height:100px
+		}
+		
+		.customNavigation
+		{
+			text-align: center;
+		}
+		
+		//use styles below to disable ugly selection
+		.customNavigation a
+		{
+		  -webkit-user-select: none;
+		  -khtml-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		}
+	</style>
+	
+		<!-- Image hover and color -->
+		<style>
+		.color
+		{
+		color: black;
+		}
+		.change:hover
+		{
+		color:white;
+		}
+		.size:hover
+		{
+		font-size:150%;
+		}
+		</style>
+			
+</head>
+<body style="background-color:#000000;">
+<div class="container-fluid">
+
+	<!-- Header Content Area -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
+				<span class="sr-only">Toggle Navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand" style="font-family:times new roman bold;">Krishna Kurti</a>
+		</div>
+		<div class="collapse navbar-collapse" id="nav-collapse">
+			<form class="navbar-form navbar-right" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Search here...">
+				</div>
+					<button type="button" class="btn btn-primary">Search</button>
+			</form>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a><b>KURTIS, LADIES SUITS, SAREES AND MORE.</b></a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<b>Account </b><i class="fa fa-user"></i> 
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Login</a></li>
+						<li><a href="#">Register!</a></li>
+					</ul>
+				</li>		
+			</ul>
+
+		</div>
+	</nav>
+	<br>
+	<br>
+	<br>
+
+		<!-- Super slider -->
+		<div id="owl-demo1" class="owl-carousel">
+			<!-- <div><img src="kurti/kurtislider/1.jpg"></div> -->
+			<div><img src="kurti/kurtislider/2.jpg"></div>
+			<div><img src="kurti/kurtislider/3.png"></div>
+			<div><img src="kurti/kurtislider/4.jpg"></div>
+			<div><img src="kurti/kurtislider/5.jpg"></div>
+		</div>	
+			<script>
+				$(document).ready(function() {
+	 
+				  $("#owl-demo1").owlCarousel({
+					autoPlay : 5000,
+					stopOnHover : true,
+					navigation:true,
+					paginationSpeed : 1000,
+					goToFirstSpeed : 2000,
+					singleItem : true,
+					autoHeight : true,
+					transitionStyle:"fade"
+				  });
+				 
+				});
+			</script>
+		 
+		
+		<!-- Page Heading -->
+		<div class="jumbotron" style="background-color:#000000; padding-top:0px; padding-bottom:0px;">
+			<h2 style="color:white; font-family:arkitech;" align="center";>KRISHNA KURTIS</h2>
+			<p align="justify"; style="font-family:bell mt; color:#fcfcfc;">
+			Designer Indian Kurti is the best dress for women to wear in all seasons. Krishna Kurit
+			offers Kurtis for women in different style and designs. Apart from designs
+			and style, our Kurtis for girls come in vibrant colors and different patterns. Our
+			creations arrive in different sizes which is best suited for all the ladies. We 
+			give the right to our customers to choose their own dress but provide them the 
+			assurance on comfort level, quality and durability.</p>
+		</div>
+		
+		<!-- Owl Carousel Slider -->
+		<div class="jumbotron" style="background-color:#ffffff; padding-top:5px; padding-bottom:1px;">
+			<div id="owl-demo" class="owl-carousel owl-theme">
+				<img src="kurti/1.jpg" class="item">
+				<img src="kurti/2.jpg" class="item">
+				<img src="kurti/3.jpg" class="item">
+				<img src="kurti/4.jpg" class="item">
+				<img src="kurti/5.jpg" class="item">
+				<img src="kurti/6.jpg" class="item">
+				<img src="kurti/7.jpg" class="item">
+				<img src="kurti/8.jpg" class="item">
+				<img src="kurti/9.jpg" class="item">
+				<img src="kurti/10.jpg" class="item">
+				<img src="kurti/11.jpg" class="item">
+				<img src="kurti/12.jpg" class="item">
+				<img src="kurti/13.jpg" class="item">
+				<img src="kurti/14.jpg" class="item">
+				<img src="kurti/15.jpg" class="item">
+				<img src="kurti/16.jpg" class="item">
+				<img src="kurti/17.jpg" class="item">
+				<img src="kurti/18.jpg" class="item">
+				<img src="kurti/19.jpg" class="item">
+				<img src="kurti/20.jpg" class="item">
+			</div>
+			<div class="customNavigation">
+			  <a class="btn prev">Prev</a>
+			  <a class="btn stop">Stop</a>
+			  <a class="btn next">Next</a>
+			</div>
+			
+			<script>
+			$(document).ready(function() {
+				  var owl = $("#owl-demo");
+				 
+				  owl.owlCarousel({
+					  autoPlay: 4000,
+					  
+					  stopOnHover: true,
+					  items : 10, //10 items above 1000px browser width
+					  itemsDesktop : [1000,5], //5 items between 1000px and 901px
+					  itemsDesktopSmall : [900,3], // betweem 900px and 601px
+					  itemsTablet: [600,2], //2 items between 600 and 0
+					  itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+				  });
+				 
+				  // Custom Navigation Events
+				  $(".next").click(function(){
+					owl.trigger('owl.next');
+				  })
+				  $(".prev").click(function(){
+					owl.trigger('owl.prev');
+				  })
+				 
+				  $(".stop").click(function(){
+					owl.trigger('owl.stop');
+				  })
+				 
+				});
+			</script>
+		</div>
+		
+		<div class="jumbotron" style="background-color:#33FF66; margin-top:-25px; padding-top:0px; padding-bottom:1px;">
+			<div class="row">
+			<div align="center" class="col-sm-4">
+				<h4 style="font-family:arkitech;">KRISHNA KURTIS</h4>				
+					<p><a href="#" style="color:black; font-family:garamond;">About us</a></p>
+			</div>
+				<div align="center" class="col-sm-4">
+					<h4 style="font-family:arkitech;">CONNECT WITH US</h4>
+					<p align="center">
+					<a href="http://www.facebook.com" target="_balnk"><i class="fa fa-facebook fa-lg color change size"></i></a>
+					<a href="https://twitter.com" target="_balnk"><i class="fa fa-twitter fa-lg color change size"></i></a>
+					<a href="https://plus.google.com" target="_balnk"><i class="fa fa-google-plus fa-lg color change size"></i></a>
+					<a href="#"><i class="fa fa-phone fa-lg color change size"></i></a>
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<h4 align="center" style="font-family:arkitech;">NEWSLETTER</h4>
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Subscribe now...">
+							<span class="input-group-btn">
+								<button type="button" class="btn btn-info">Subscribe</i>
+								</button>
+							</span>
+					</div>
+				</div>
+			</div>				
+		</div>
+		<hr style="margin-top:-25px; margin-bottom:10px;">
+		<p style="color:white; font-family:corbel;" align="center">Krishna Kurtis New Delhi Call us at +919810522388 Email us at: contact@krishnakurtis.com</p>
+		<p style="color:white; font-family:corbel;" align="center";>Developed and Maintained by<a href="http://www.relianttech.org/" target="_balnk"> RELIANT TECHNOLOGIES</a></p>
+		<p style="color:white; font-family:corbel;" align="center";>© 2014 Krishna Kurits. All Rights Reserved.</p>
+		<hr style="margin-top:10px; margin-bottom:-15px;">	
+</div>
+</body>
+</html>

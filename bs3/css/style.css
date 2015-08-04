@@ -1,0 +1,79 @@
+
+/*navbar formatting*/
+.navbar .nav li>a
+{
+    color: #fff;
+}
+
+/*navbar navigation color*/
+.navbar .nav li>a:hover {
+    background-color: #B54646;
+}
+
+/*navbar dropdown-menu color*/
+ul.dropdown-menu {
+    background-color: #000;
+}
+
+/*navbar dropdown-menu li>a:hover color*/
+ul.dropdown-menu li>a:hover {
+    background-color: #B54646;
+}
+
+.dropdown-submenu:hover > .dropdown-menu .dropdown-menu { display: none; }
+.dropdown-submenu:hover .dropdown-submenu:hover > .dropdown-menu { display: block; }
+
+@media (max-width: 768px){
+	.img-screen{
+		display: none;
+	}
+}
+@media (max-width: 1024px){
+	.img-screen{
+		display: block;
+	}
+}
+
+/*CAROUSEL LEFT RIGHT CIRCLE BUTTON*/
+
+.carousel {
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  background: #222222;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.carousel-control.right {
+  left: auto;
+  right: 15px;
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+#wrap
+{
+  padding-top: 150px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Progress Bar</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+		
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Default Progress Bar</h1>
+			<p>The purpose of progress bars is to show that assets are loading, in progress, 
+			or that there is action taking place regarding elements on the page.
+			<ul><li>Progress bars use CSS3 transitions and animations to achieve some of their effects. 
+			These features are not supported in Internet Explorer 9 and below or older versions 
+			of Firefox. Opera 12 does not support animations.</li>
+			<li>To create a basic progress bar:</li>
+			<ol><li>Add a &lt;div&gt; with a class of .progress.</li>
+			<li>Next, inside the above &lt;div&gt;, add an empty &lt;div&gt; with a class of .progress-bar.</li>
+			<li>Add a style attribute with the width expressed as a percentage. Say for example, 
+			style="60%"; indicates that the progress bar was at 60%.</li></ol></ul></p>
+	</div>
+	
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;">
+				<span class="sr-only">60% Complete</span>
+			</div>
+		</div>
+	
+</div>
+</body>
+</html>

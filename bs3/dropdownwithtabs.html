@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta  charset="UTF-8">
+<title>Bootstrap Dropdown Plugin</title>
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Dropdown Menu Within Tabs</h1>
+	</div>
+		<!-- <div class="jumbotron"> -->
+			<p>Tabs with Dropdown Example</p>	
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">SVN</a></li>
+					<li><a href="#">IOS</a></li>
+					<li><a href="#">VB.NET</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							JAVA
+								<span class="caret"></span>
+						</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">jmeter</a></li>
+						<li><a href="#">EJB</a></li>
+						<li><a href="#">Jasper Report</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+						<li class="divider"></li>
+						<li><a href="#">One more separated link</a></li>
+					</ul>	
+					</li>
+					<li><a href="#">PHP</a></li>
+				</ul>
+		<!-- </div> -->
+</div>
+
+</body>
+</html>

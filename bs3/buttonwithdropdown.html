@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Button With Dropdown</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+		
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h2>Button with Dropdown</h2>
+			<p><ul><li>Adding button with dropdown menus in input groups can be done by simply 
+			wrapping the button and dropdown menu in a .input-group-btn class as demonstrated 
+			in the following example:</li></ul></p>
+	</div>
+
+			<div class="jumbotron">
+				<form role="form" class="bs-example bs-example-form">
+					<div class="input-group">
+						<span class="input-group-btn">
+							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+								DropdownMenu
+								<span class="caret"></span>
+							</button>
+						<ul class="dropdown-menu" role="menu">
+							<li role="presentataion">
+								<a href="#" tabindex="-1">Action</a>
+								<a href="#" tabindex="-1">Another Action</a>
+								<a href="#" tabindex="-1">Data Structure</a>
+							</li>
+								<li role="presentataion" class="divider"></li>
+							<li role="presentataion">
+								<a href="#" tabindex="-1">Seprated Link</a>
+							</li>	
+						</ul>
+						</span>
+						<input type="text" class="form-control">	
+					</div>
+					
+					<br>
+					<div class="input-group">
+						<input type="text" class="form-control">
+							<span class="input-group-btn">
+								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+									DropdownMenu
+									<span class="caret"></span>
+								</button>	
+									<ul class="dropdown-menu" role="menu">
+										<li role="presentataion">
+											<a href="#" tabindex="-1">Action</a>
+											<a href="#" tabindex="-1">Another Action</a>
+											<a href="#" tabindex="-1">Data Structure</a>
+										</li>
+										<li role="presentataion" class="divider"></li>
+										<li>	
+											<a href="#" tabindex="-1">Seprated Link</a>
+										</li>	
+									</ul>
+								</button>
+							</span>
+					</div>
+				</form>	
+			</div>
+
+</div>	
+	
+</body>
+</html>

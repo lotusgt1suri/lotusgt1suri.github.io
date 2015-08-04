@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Boostrap Dropdown</title>
+</head>
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+		
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h2>Boostrap Dropdown</h2>
+			<p><ul><li>To use dropdown, just wrap the dropdown menu within the class .dropdown. </li></ul></p>
+	</div>
+	
+			<div class="jumbotron" style="background-color:#00cdcd;">
+				<h2>Boostrap Dropdown</h2>
+					<div class="dropdown">
+						<button type="button" class="btn btn-default dropdown-toggle" id="ddm1" data-toggle="dropdown">
+							Languages
+							<span class="caret"></span>
+						</button>
+						
+						<ul class="dropdown-menu" role="menu" aira-labelledby="ddm1">
+							<li role="presentation">
+								<a href="#" tabindex="-1">HTML</a>
+							</li>
+							<li role="presentation">
+								<a href="#" tabindex="-1">Data Structure</a>
+							</li>
+							<li role="presentation" class="divider"></li>
+								<li role="presentation">
+									<a href="#" tabindex="-1">Database Management System</a>
+								</li>
+							
+						</ul>
+					</div>
+			</div>
+			
+			
+			<div class="jumbotron" style="background-color:#ff6eb4;">
+				<h2>Alignment Option</h2>
+					<p><ul><li>Align the dropdown menu to right by adding the class .pull-right to .dropdown-menu. 
+					Following example demonstrates this:</li></ul></p>
+						<div class="dropdown">
+							<button type="button" class="btn btn-default dropdown-toggle" id="ddm2" data-toggle="dropdown">
+								Languages
+									<span class="caret"></span>
+							</button>	
+								
+							<ul class="dropdown-menu pull-right" role="menu" aria-labelledby="ddm2">
+								<li role="presentation">
+									<a href="#" tabindex="-1">HTML</a>
+								</li>	
+								
+								<li role="presentation" tabindex="-1">
+									<a href="#" tabindex="-1">Java</a>
+								</li>
+								
+								<li class="divider" role="presentation"></li>
+									<li role="presentation">
+										<a href="#" tabindex="-1">Seperated Link</a>
+									</li>
+						</div>
+			</div>
+			
+			<div class="jumbotron" style="background-color:#ff8c00;">
+				<h2>Header</h2>
+					<p><ul><li>You can add a header to label sections of actions in 
+					any dropdown menu by using the class dropdown-header.</li></ul></p>
+					
+					<div class="dropdown">
+						<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" id="ddm3">
+							Languages
+								<span class="caret"></span>
+						</button>
+						
+						<ul class="dropdown-menu" role="menu" aria-labelledby="ddm3">
+							<li role="presentation" class="dropdown-header">Dropdown Header</li>
+								<li role="presentation" class="divider"></li>
+									<li role="presentation">
+										<a href="#" tabindex="-1">Data Structure</a>
+									</li>
+									
+									<li role="presentation">
+										<a href="#" tabindex="-1">Data Mining</a>
+									</li>	
+										
+									<li role="presentation">
+										<a href="#" tabindex="-1">DBMS</a>
+									</li>
+
+							<li role="presentation" class="dropdown-header">Dropdown Header</li>	
+								<li role="presentation" class="divider"></li>
+									<li role="presentation">
+										<a href="#" tabindex="-1">ASP.NET</a>
+									</li>	
+									
+									<li role="presentation">
+										<a href="#" tabindex="-1">PHP</a>
+									</li>
+									
+									<li role="presentation">
+										<a href="#" tabindex="-1">Boostrap</a>
+									</li>
+									
+									<li role="presentation">
+										<a href="#" tabindex="-1">CSS</a>
+									</li>
+						</ul>
+					</div>
+			</div>
+			
+			
+			
+</div>
+
+</body>
+</html>

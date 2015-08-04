@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Auto Height</title>
+
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/owl.theme.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+		
+		<style>
+		#owl-demo .owl-item div
+		{
+		  padding:5px;
+		}
+		#owl-demo .owl-item img
+		{
+		  display: block;
+		  width: 100%;
+		  height: auto;
+		  -webkit-border-radius: 3px;
+		  -moz-border-radius: 3px;
+		  border-radius: 3px;
+		}
+		</style>
+		
+</head>
+<body>
+<div class="container-fluid">
+
+		<div id="owl-demo" class="owl-carousel">
+			<div><img src="kurti/kurtislider/1.jpg"></div>
+			<div><img src="kurti/kurtislider/2.jpg"></div>
+			<div><img src="kurti/kurtislider/3.png"></div>
+			<div><img src="kurti/kurtislider/4.jpg"></div>
+			<div><img src="kurti/kurtislider/5.jpg"></div>
+		</div>	
+			<script>
+				$(document).ready(function() {
+	 
+				  $("#owl-demo").owlCarousel({
+					autoPlay : 5000,
+					stopOnHover : true,
+					navigation:true,
+					paginationSpeed : 1000,
+					goToFirstSpeed : 2000,
+					singleItem : true,
+					autoHeight : true,
+					transitionStyle:"fade"
+				  });
+				 
+				});
+			</script>
+	
+</div>
+</body>
+</html>	

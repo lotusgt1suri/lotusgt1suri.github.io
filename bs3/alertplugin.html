@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Alert Plugin</title>
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Bootstrap Alert Plugin via Data Attribute</h1>
+			<p>Alert messages are mostly used to display information such as warning or confirmation messages 
+			to the end users. Using alert message plugin you can add dismiss functionality to all alert messages.</p>
+	</div>
+		<div class="jumbotron">
+			<h2>Usage</h2>
+				<p><ol>You can enable dismissal of an alert in the following two ways:
+				<li>Via data attributes: To dismiss via Data API just add data-dismiss="alert" 
+				to your close button to automatically give an alert close functionality.</li>
+				<li>Via JavaScript: To dismiss via JavaScript</li></ol></p>
+		</div>
+			<div class="alert alert-success">
+			<!-- <button type="button" class="btn btn-success alert alert-success"> -->
+				<a href="#" class="close" data-dismiss="alert">
+					&times;
+				</a>
+				<strong>Warning!</strong> There was a problem with your network connection.
+			<!-- 	</button> -->
+			</div>
+			
+			<br>
+			<br>
+		
+	
+</div>
+</body>
+</html>	

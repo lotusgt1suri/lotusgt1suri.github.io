@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Button Plugin</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron">
+		<h1>Bootstrap Button Plugin</h1>
+		<p>With this plugin you can add in some interaction such as control button states or create groups of buttons for more components like toolbars.	</p>
+	</div>
+		<!-- Loading State -->
+		<div class="jumbotron">
+			<h3>Loading State</h3>
+				<p>To add a loading state to a button, simply add data-loading-text="Loading..." 
+				as an attribute to the button element as shown in the following example:</p>
+			<button id="btn-fat" type="button" class="btn btn-primary" data-loading-text="Loading...">
+				Loading State
+			</button>
+			<script>
+				$(function(){
+					$(".btn").click(function(){
+						$(this).button('loading').delay(10).queue(function(){
+						});
+						});
+						});
+			</script>
+		</div>
+			<!-- Single Toggle -->
+			<div class="jumbotron">
+				<h3>Single Toggle</h3>
+					<p>To activate toggling (i.e. change the normal state of a button to a push state
+					and vice versa) on a single button, add data-toggle="button" as an attribute 
+					to the button element as shown in the following example:</p>
+				<button type="button" class="btn btn-primary" data-toggle="button">
+					Single Toggle
+				</button>	
+			</div
+				<!-- Checkbox -->
+				<div class="jumbotron">
+					<h3>Checkbox</h3>
+						<p>You can create group of checkboxes and add toggling to it by simply adding 
+						the data attribute data-toggle="buttons" to the btn-group</p>
+					<div class="btn-group" data-toggle="buttons">
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option1">Option1
+						</label>	
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option2">Option2
+						</label>
+						<label class="btn btn-primary">
+							<input type="radio" name="options" id="option3">Option3
+						</label>	
+					</div>
+				</div>
+	
+</div>
+</body>
+</html>	

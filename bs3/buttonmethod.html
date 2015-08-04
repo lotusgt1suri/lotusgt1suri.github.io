@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Button Plugin</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron">
+		<h1>Bootstrap Button Plugin via Method</h1>
+		<p>The following example demonstrates use of above methods:</p>
+	</div>
+		<!-- button plugin via method -->
+		<div class="jumbotron">
+			<h2>Click on each of the buttons to see the effects of methods.</h2>
+				<h4>Example to demonstrates .button('toggle') method</h4>
+				<div id="mybutton1" class="bs-example">
+					<button type="button" class="btn btn-primary">Primary</button>
+				</div>	
+				<h4>Example to demonstrates .button('loading') method</h4>
+				<div id="mybutton2" class="bs-example">
+					<button type="button" class="btn btn-primary" data-loading-text="Loading...">Primary</button>
+				</div>	
+				<h4>Example to demonstrates .button('reset') method</h4>
+				<div id="mybutton3" class="bs-example">
+					<button type="button" class="btn btn-primary" data-loading-text="Loading...">Primary</button>
+				</div>	
+				<h4>Example to demonstrates .button('string') method</h4>
+					<button type="button" class="btn btn-primary" id="mybutton4" data-complete-text="Loading Finished">Click Me</button>
+			<script>
+				$(function(){
+					$("#mybutton1 .btn").click(function(){
+						$(this).button('toggle');
+						});
+					});
+				$(function() { 
+					$("#mybutton2 .btn").click(function(){
+						$(this).button('loading').delay(1000).queue(function() {
+						});        
+						});
+					});  
+				 $(function() { 
+					  $("#mybutton3 .btn").click(function(){
+						 $(this).button('loading').delay(1000).queue(function() {
+							$(this).button('reset');
+						 });        
+					  });
+				   });  
+				   $(function() { 
+					  $("#mybutton4").click(function(){
+						 $(this).button('loading').delay(1000).queue(function() {
+							$(this).button('complete');
+						 });        
+					  });
+				   }); 					
+			</script>	
+		</div>
+	
+</div>
+</body>
+</html>	

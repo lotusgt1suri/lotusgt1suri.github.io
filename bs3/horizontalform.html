@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Horizontal Form</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+		
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h2>Horizontal Form</h2>
+			<p>Horizontal forms stands apart from the others not only in the amount of markup, 
+			but also in the presentation of the form. To create a form that uses the horizontal 
+			layout, do the following:</p>
+	</div>
+	
+			<div>
+				<p><ul><li>Add a class of .form-horizontal to the parent &lt;form&gt; element.</li></ul></p>
+				<p><ul><li>Wrap labels and controls in a &lt;div&gt; with class .form-group.</li></ul></p>
+				<p><ul><li>Add a class of .control-label to the labels.</li></ul></p>
+			</div>
+			
+					<form role="form" class="form-horizontal">
+						
+						<div class="form-group">
+							<label class="col-sm-2 control-label" for="first">First Name:</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="first" placeholder="Enter First Name...">
+						</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="col-sm-2 control-label" for="last">Last Name:</label>
+						<div class="col-sm-10">
+							<input type="text" id="last" width="50%" placeholder="Enter Last Name...">
+						</div>
+						</div>
+						
+						<div class="checkbox col-sm-offset-2">
+							<p><label><input type="checkbox">Remember me</label></p>
+						</div>
+						<button type="button" class="col-sm-offset-2 btn btn-default">Submit</button>
+					</form>
+	
+</div>
+
+</body>
+</html>

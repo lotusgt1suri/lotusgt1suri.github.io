@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta  charset="UTF-8">
+<title>Bootstrap Tab Plugin</title>
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Bootstrap Tab Plugin Using Events</h1>
+	</div>
+		<div class="jumbotron">
+		<hr>
+		   <p class="active-tab"><strong>Active Tab</strong>: <span></span></p>
+		   <p class="previous-tab"><strong>Previous Tab</strong>: <span></span></p>
+		<hr>
+			<ul class="nav nav-tabs" id="myTab">
+				<li class="active">
+					<a href="#home" data-toggle="tab">Tutorial Point Home</a>
+				</li>
+				<li><a href="#ios" data-toggle="tab">IOS</a></li>
+				<li class="dropdown">
+					<a href="#" id="#myDrop1" data-toggle="dropdown" class="dropdown-toggle">
+						JAVA
+							<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="myDrop1">
+						<li><a href="#jmeter" data-toggle="tab">Jmeter</a></li>
+						<li><a href="#ejb" data-toggle="tab">EJB</a></li>
+					</ul>
+				</li>	
+			</ul>
+			<div id="myContent" class="tab-content">
+				<div class="tab-pane fade in active" id="home">
+					<p>Tutorials Point is a place for beginners in all technical areas. 
+					 This website covers most of the latest technoligies and explains 
+					 each of the technology with simple examples. You also have a 
+					 <b>tryit</b> editor, wherein you can edit your code and 
+					 try out different possibilities of the examples.</p>
+				</div>
+				<div class="tab-pane fade" id="ios">
+					<p>iOS is a mobile operating system developed and distributed by Apple 
+					 Inc. Originally released in 2007 for the iPhone, iPod Touch, and 
+					 Apple TV. iOS is derived from OS X, with which it shares the 
+					 Darwin foundation. iOS is Apple's mobile version of the 
+					 OS X operating system used on Apple computers.</p>
+				</div>
+				<div class="tab-pane fade" id="jmeter">
+					 <p>jMeter is an Open Source testing software. It is 100% pure 
+					 Java application for load and performance testing.</p>
+				</div>
+				<div class="tab-pane fade" id="ejb">
+					<p>Enterprise Java Beans (EJB) is a development architecture 
+					 for building highly scalable and robust enterprise level    
+					 applications to be deployed on J2EE compliant 
+					 Application Server such as JBOSS, Web Logic etc.</p>
+				</div>
+			</div>
+			<script>
+				$(function() {
+					$('a[data-toggle="tab"]').on('shown.bs.tab',
+					function (e) {
+					//get the name of the active tab
+					var activeTab=$(e.target).text();
+					//get the name of the previous tab
+					var previousTab=$(e.relatedTarget).text();
+					$(".active-tab span").html(activeTab);
+					$(".previous-tab span").html(previousTab);
+					});
+					});
+			</script>
+		</div>
+	
+</div>
+</body>
+</html>	

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home Page</title>
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/flowtype.js"></script>
+	<script>$('body').flowtype({
+ minimum   : 500,
+ maximum   : 1200,
+ minFont   : 12,
+ maxFont   : 40,
+ fontRatio : 30
+});</script>
+		<!-- font-family -->
+		<style>
+			@font-face 
+			{
+				font-family: myFirstFont;
+				src: url(font/batmanforeveralternate.ttf);
+			}
+				.navbar-brand
+			{
+			font-family: myFirstFont;
+			}
+			@times
+			{
+				font-family:times new roman;
+				src: url(font/times.ttf);
+			}
+			.color
+			{
+			color: gray;
+			
+			}
+			.change:hover
+			{
+			color:white;
+			}	
+			.size:hover
+			{
+			font-size: 150%;
+			}
+		</style>
+	
+</head>
+<body style="background-color:#454545;">
+
+<div class="container">
+	<!-- Header Area -->
+	<nav class="navbar navbar-inverse" role="navigation">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+				<span class="sr-only">Toggle Navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>	
+			<a href="#" class="navbar-brand ">
+				Sky Web Ticker
+			</a>
+		</div>
+		<div class="collapse navbar-collapse" id="collapse">
+		<form class="navbar-form navbar-left" role="search">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search the Games...">
+			</div>
+			<button type="button" class="btn btn-primary">Go...</button>
+		</form>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><b>Login</b></a></li>
+				<li class="navbar-text"><b>Connect with us</b></li>
+				<!-- <li><p class="navbar-text">Connect with us.</p></li> -->
+				<li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-lg color change size"></i></a></li>
+				<li><a href="https://plus.google.com"><i class="fa fa-google-plus fa-lg color change size"></i></a></li>
+				<li><a href="https://twitter.com"><i class="fa fa-twitter fa-lg color change size"></i></a></li>
+				<li><a href="#"><i class="fa fa-phone fa-lg color change size"></i></a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<!-- Content Area -->
+	<div class="jumbotron" style="background-color:#8b0000; margin-bottom:8px;">
+		<div class="row">
+			<div class="col-sm-8">
+				<div align="center"; style="color:white; font-family:myFirstFont;">
+					<h2 style="font-size:50px;"><b>Beta For Students</b></h2>
+				</div>
+				<div class="row">
+				<div class="col-sm-3">
+					<a href="#" class="thumbnail"><img src="game/angrybird.jpg" class="img-responsive"></a>
+				</div>	
+				<div class="col-sm-3">
+					<a href="#" class="thumbnail"><img src="game/expendable.jpg" class="img-responsive"></a>
+				</div>
+				<div class="col-sm-3">	
+					<a href="#" class="thumbnail"><img src="game/takken.jpg" class="img-responsive"></a>
+				</div>
+				<div class="col-sm-3">	
+					<a href="#" class="thumbnail"><img src="game/angrybird.jpg" class="img-responsive"></a>
+				</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-sm-3">
+					<a href="#" class="thumbnail"><img src="game/car.jpg" class="img-responsive"></a>
+				</div>	
+				<div class="col-sm-3">
+					<a href="#" class="thumbnail"><img src="game/batman.jpg" class="img-responsive"></a>
+				</div>
+				<div class="col-sm-3">	
+					<a href="#" class="thumbnail"><img src="game/coolcar.jpg" class="img-responsive"></a>
+				</div>
+				<div class="col-sm-3">	
+					<a href="#" class="thumbnail"><img src="game/hdgame.jpg" class="img-responsive"></a>
+				</div>
+				</div>
+				
+				<p align="center";>
+				<button type="button" class="btn btn-success">Try Game Ball</button>
+				</p>
+			</div>
+			
+			
+			<div class="col-sm-4">
+				<form role="form" style="border-style:solid; color:white; padding:10px; border-radius:15px 15px 15px 15px">
+					<div class="form-group">
+						<caption><strong style="color:white;">Sign up for BETA IT Languages</strong></caption>
+					</div>	
+					<div class="form-group">
+						<p>	
+						<input type="text" class="form-control" placeholder="Name...">
+						</p>
+					</div>	
+					<div class="form-group">
+						<p>	
+						<input type="text" class="form-control" placeholder="Email...">
+						</p>
+					</div>
+					<div class="form-group">
+						<p>
+						<input type="text" class="form-control" placeholder="Phone...">
+						</p>
+					</div>	
+					<div class="form-group">
+						<p>
+						<input type="text" class="form-control" placeholder="Game...">
+						</p>
+					</div>
+					<div class="form-group" align="center";>
+						<p>
+							<button type="button" class="btn btn-primary">REGISTER!</button>
+						</p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Not a user. Please Register Yourself -->
+	<p align="center"; style="color:white; font-family:timesnewroman" >
+		Not a registered Signature Ink Auctions Distributer yet? 
+			<button type="button" class="btn btn-danger">Register Here
+			</button>
+	</p>
+	
+	<!-- Beta Languages for Students -->
+		<div class="jumbotron" style="margin-bottom:22px; background-color:black;">
+			<div class="row">
+				<div class="col-sm-12">
+					<ul class="nav nav-tabs" id="myID">
+						<h2 data-toggle="tab" style="color:#ffa500; font-family:Arial Rounded MT Bold;">Beta Languages For Students</h2>
+						<br>
+						<li><a href="#apps" data-toggle="tab">&#x2713; Apps Categories</a></li>
+						<li><a href="#game" data-toggle="tab">&#x2713; Video Game Categories</a></li>
+						<li><a href="#tv" data-toggle="tab">&#x2713; TV Production</a></li>
+						<li><a href="#seo" data-toggle="tab">&#x2713; SEO</a></li>
+						<li><a href="#beta" data-toggle="tab">&#x2713; Beta Testing</a></li>
+						
+					</ul>
+					<div id="#myID" class="tab-content">
+						<div class="tab-pane fade" id="apps">
+							<p align="justify"; style="font-family:timesnewroman; color:white;">
+							 Application software, computer software designed to help the user 
+							 to perform specific tasks</p>
+							 <form role="form" class="form-inline">
+							 <input type="text" class="form-control" placeholder="Enter Your Email...">
+							 <button type="button" href="#" class="btn btn-primary">Submit your Request</submit>
+							 </form>
+						</div>	
+						<div class="tab-pane fade" id="game">
+							<p align="justify"; style="font-family:timesnewroman; color:white;">
+							 A game is structured playing, usually undertaken for enjoyment and 
+							 sometimes used as an educational tool. Games are distinct from 
+							 work, which is more often an expression of aesthetic
+							 or ideological elements. </p>
+							 <form role="form" class="form-inline">
+							 <input type="text" class="form-control" placeholder="Enter Your Email...">
+							 <button type="button" href="#" class="btn btn-primary">Submit your Request</submit>
+							 </form>
+						</div>
+						<div class="tab-pane fade" id="tv">
+							<p align="justify"; style="font-family:timesnewroman; color:white;">
+							 Television (TV) is a telecommunication medium that is used for 
+							 transmitting and receiving moving images and sound. Television
+							 can transmit images that are monochrome (black-and-white), 
+							 in color, or in three dimensions.</p>
+							<form role="form" class="form-inline">
+							<input type="text" class="form-control" placeholder="Enter Your Email...">
+							<button type="button" href="#" class="btn btn-primary">Submit your Request</submit>
+							</form>
+						</div>
+						<div class="tab-pane fade" id="seo">
+							<p align="justify"; style="font-family:timesnewroman; color:white;">
+							 SEO refers to search engine optimization: the process of improving 
+							 the ranking of a website on web search engines.</p>
+							 <form role="form" class="form-inline">
+							 <input type="text" class="form-control" placeholder="Enter Your Email...">
+							 <button type="button" href="#" class="btn btn-primary">Submit your Request</submit>
+							 </form>
+						</div>	
+						<div class="tab-pane fade" id="beta">
+							<p align="justify"; style="font-family:timesnewroman; color:white;">
+							Beta testing comes after alpha testing and can be considered a form 
+							of external user acceptance testing. Versions of the software, 
+							known as beta versions, are released to a limited audience 
+							outside of the programming team.</p>
+							 <form role="form" class="form-inline">
+							 <input type="text" class="form-control" placeholder="Enter Your Email...">
+							 <button type="button" href="#" class="btn btn-primary">Submit your Request</submit>
+							 </form>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	
+	<!-- Image Area -->
+	<div style="background-color:#454545;">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="game/callofduty.jpg" class="img-responsive img-rounded thumbnail">
+			</div>
+			<div class="col-sm-4">
+				<img src="game/game-over.jpg" class="img-responsive img-rounded thumbnail">
+			</div>
+			<div class="col-sm-4">
+				<img src="game/assasin.jpg" class="img-responsive img-rounded thumbnail">
+			</div>
+		</div>
+	</div>
+	
+	<!-- Copyright Content -->
+	<p align="center"; style="color:white;">
+		<span class="glyphicon glyphicon-copyright-mark"></span>
+		2014 Sky Web Ticker. All Right Reserved.
+	</p>	
+
+
+</div>
+</body>
+</html>

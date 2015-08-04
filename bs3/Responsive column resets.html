@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta  charset="UTF-8">
+<title>Responsive column resets</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	
+	<script src="jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+<h2>Responsive column resets</h2>
+	<div class="row">
+		<div class="col-xs-6 col-md-3">
+			<p>With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, 
+			your columns don't clear quite right as one is taller than the other. 
+			To fix that, use a combination of a class.clearfix and the responsive utility classes as shown in the following example:</p>
+		</div>
+		
+		<div class="col-xs-6 col-md-3">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> 
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut. </p>
+		</div>
+		
+		<div class="clearfix visible-xs">
+		</div> 
+		
+		<div class="col-xs-6 col-sm-3"> 
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> 
+		</div> 
+		
+		<div class="col-xs-6 col-sm-3"> 
+			<p>Resize your viewport or check it out on your phone for a desired result of this example. </p> 
+		</div>
+		
+	</div>
+</div>
+</body>
+</html>

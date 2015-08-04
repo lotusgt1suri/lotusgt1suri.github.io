@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Tooltip Plugin</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+		
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Bootstrap Tooltip Via Method</h1>
+	</div>
+		
+		<div>
+			<p>
+				This is a <a href="#" class="tooltip-show" data-toggle="tooltip" title="show">Tooltip on Method Show</a>
+				This is a <a href="#" class="tooltip-hide" data-placement="left" data-toggle="tooltip" title="hide">Tooltip on Method Hide</a>
+				This is a <a href="#" class="tooltip-destroy" data-placement="top" data-toggle="tooltip" title="destroy">Tooltip on Method destroy</a>
+				This is a <a href="#" class="tooltip-toggle" data-placement="bottom" data-toggle="tooltip" title="toggle">Tooltip on Method Toggle</a>
+			</p>
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<p class="tooltip-options">
+				This is a <a href="#" data-toggle="tooltip" data-placement="top" title="<h2>`am Header2</h2>">Tooltip on Method options.</a>
+			</p>	
+			<script>
+				$(function () { $('.tooltip-show').tooltip('show');});
+				$(function () { $('.tooltip-hide').tooltip('hide');});
+				$(function () { $('.tooltip-destroy').tooltip('destroy');});
+				$(function () { $('.tooltip-toggle').tooltip('toggle');});
+				$(function () { $(".tooltip-options a").tooltip({html : true});
+				});
+			</script>
+			<!-- <script>
+      $(function () { $('.tooltip-show').tooltip('show');});
+      $(function () { $('.tooltip-hide').tooltip('hide');});
+      $(function () { $('.tooltip-destroy').tooltip('destroy');});
+      $(function () { $('.tooltip-toggle').tooltip('toggle');});
+      $(function () { $(".tooltip-options a").tooltip({html : true });
+      });
+   </script> -->
+		</div>
+	
+</div>
+</body>
+</html>	
+	

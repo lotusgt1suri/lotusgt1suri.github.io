@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Form Control States</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+		
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h2>Form Control States</h2>
+			<p><ul><li>In addition to the :focus (i.e., a user clicks into the input or tabs onto it) 
+			state, Bootstrap offers styling for disabled inputs and classes for form validation.</li></ul></p>
+	</div>
+			
+			<div class="jumbotron" style="background-color:#66cdaa;">
+				<h3>INPUT FOCUS</h3>
+					<p><ul><li>When an input receives :focus, the outline of the input is removed and a box-shadow 
+					is applied.</li></ul></p>
+				<h3>DISABLED INPUTS</h3>
+					<p><ul><li>If you need to disable an input, simply adding the disabled attribute will not only
+					disable it; it will also change the styling and the mouse cursor when the cursor hovers 
+					over the element.</li></ul></p>
+				<h3>DISABLED FIELDSETS</h3>
+					<p><ul><li>Add the disabled attribute to a &lt;fieldset&gt; to disable all the controls within 
+					the &lt;fieldset&gt; at once.</li></ul></p> 
+				<h3>VALIDATION STATES</h3>
+					<p><ul><li>Bootstrap includes validation styles for error, warning, and success messages. 
+					To use, simply add the appropriate class (.has-warning, .has-error, or .has-success) 
+					to the parent element.</li></ul></p>
+					<p>Following example demonstrates all the form control states:</p>
+			</div>
+			
+			<div>
+				<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label for="focused" class="col-sm-2 control-label">Focused</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="focused" placeholder="This is Focused...">
+						</div>
+						</div>
+						
+						<div class="form-group">
+							<label for="disabled" class="col-sm-2 control-label">Disabled</label>
+						<div class="col-sm-10">
+							<input type="text" id="disabled" class="form-control" disabled placeholder="This is Disabled...">
+						</div>
+						</div>
+						
+						<fieldset disabled>
+								<div class="form-group">
+									<label for="disableinput" class="col-sm-2 control-label">Disabled Input(Fieldset Disabled)</label>
+								<div class="col-sm-10">
+									<input type="text" id="disableinput" placeholder="Disabled Input" class="form-control">
+								</div>
+								</div>
+								
+								<div class="form-group">
+									<label for="disableselectmenu" class="col-sm-2 control-label">Disabled Select Menu(Fieldset Disabled)</label>
+								<div class="col-sm-10">
+									<select id="disableselectmenu" class="form-control">
+										<option>Disabled Option</option>
+									</select>
+								</div>								
+								</div>
+						</fieldset>
+						
+						<div class="form-group has-success">
+							<label for="success" class="col-sm-2 control-label">Input with Success</label>
+						<div class="col-sm-10 has-success">
+							<input type="text" id="success" class="form-control">
+						</div>
+						</div>
+						
+						<div class="form-group has-warning">
+							<label for="inputwarning" class="col-sm-2 control-label">Input with Warning</label>
+						<div class="col-sm-10 has-warning">
+							<input type="text" id="inputwarning" class="form-control">
+						</div>
+						</div>
+						
+						<div class="form-group has-error">
+							<label for="inputerror" class="col-sm-2 control-label">Input with Error</label>
+						<div class="col-sm-10 has-error">
+							<input type="text" class="col-sm-10 form-control" id="inputerror">
+						</div>						
+						</div>
+						
+				</form>
+			</div>
+</div>
+
+</body>
+</html>
