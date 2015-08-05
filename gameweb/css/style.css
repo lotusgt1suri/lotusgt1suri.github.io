@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+}
+.block
+{
+	padding: 30px 0;
+	width: 100%;
+	min-height: 700px;
+	/*border-bottom: 5px solid #234;*/
+}
+.block h1
+{
+	color: #fff;
+	padding-top: 220px;
+	float:right;
+	text-align: center;
+}
+.back-to-top:hover {
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+}
+.fooalign
+{
+	color: #999;
+	text-align: center;
+}
+.navbar li>a
+{
+	font-family: 'Orbitron', sans-serif;
+}
+.foohead
+{
+	font-family: 'Audiowide', cursive;
+}
+.batman
+{
+	font-family: 'Black Ops One', cursive;
+	text-align: center;
+}
+.battle
+{
+	font-family: 'Audiowide', cursive;
+}
+.hot
+{
+	font-family: 'Kaushan Script', cursive;
+}
+.category
+{
+	text-align: left;
+}
+.footer-nav p>a
+{
+	color: #fff;
+}
