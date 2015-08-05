@@ -1,0 +1,378 @@
+.navbar-inverse .navbar-brand {
+   color:#fff;
+   font-family: 'Arvo', serif;
+}
+
+.navbar .nav li>a
+{
+	color:#fff;
+	font-family: 'Arvo', serif;
+	font-size: 1em;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	
+}
+
+ul.dropdown-menu {
+    background-color: #000;
+}
+/*navbar dropdown-menu li>a:hover color*/
+ul.dropdown-menu li>a:hover {
+    background-color: #B54646;
+}  
+
+
+.foot
+{
+	color: #fff;
+	text-align: center;
+	font-family: Times, Arial, sans-serif;
+}
+
+/*index form footer */
+.footer
+{
+	padding: 5px;
+	margin-top: 0px; 
+	background: #1a1a1a;
+	color: #fff;
+	margin-bottom: -30px;
+}
+
+/* footer nav-item */
+.footer-nav .nav-item>a
+{
+	font-size: 0.9em;
+	font-family: 'Arvo', serif;
+}
+
+.footer-logo
+{
+	font-family: 'Arvo', serif;
+}
+#footer .fot
+{
+	color: #044F67;
+	/*background: #fff;*/
+}
+.foo-text
+{
+	font-family: 'Arvo', serif;
+	text-align: center;
+}
+
+.govt
+{
+	background: #040404;
+	padding: 10px;
+}
+.govt-img
+{
+	height: 50px;
+	width: auto;
+}
+
+@media (max-width: 768px){
+	.govt-img
+	{
+		height: 30px;
+		width: auto;
+	}
+}
+
+.para
+{
+	text-align: justify;
+	font-family: 'Arvo', serif;
+}
+
+.fonthead
+{
+	font-family: 'Philosopher', sans-serif;
+	font-size: 1em;
+}
+
+.video-img
+{
+	width: 330px;
+}
+
+.vline {
+    border-left: thick solid #000;
+}
+
+.section2
+{
+	background: #f2f4f6;
+	padding: 20px;
+}
+
+.math-img
+{
+	border-radius: 15px;
+}
+img .img-center
+{
+	text-align: center;
+}
+
+.bold-text
+{
+	color: red;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.big-font
+{
+	color: green;
+	font-size: 1.5em;
+}
+
+.world-img
+{
+	width: auto;
+	height: 100px;
+}
+
+
+/*FOOTER RIBBON*/
+footer div.footer-ribbon:before {
+    border-right-color: #005580;
+}
+footer div.footer-ribbon:before {
+    border-right: 10px solid #005580;
+    border-top: 16px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    height: 0;
+    left: -10px;
+    position: absolute;
+    top: 0;
+    width: 7px;
+}
+
+footer div.footer-ribbon {
+    background: #0088CC;
+    margin: -40px 0 0 30px;
+    padding: 10px 20px 6px;
+    position: absolute;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+footer div.footer-ribbon span{
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.title span{
+    font-weight: 900;
+}
+
+/* Collapse
+---------------------------------- */
+.panel-group .panel {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	border: none;
+	padding: 3px;
+}
+.panel-default > .panel-heading {
+	padding: 0;
+	outline: none;
+	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	width: 100%;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border: 1px solid #f0f0f0;
+	border-top: none;
+	background-color: #fafafa
+}
+.panel-heading a {
+	font-weight: 400;
+	padding: 12px 35px 12px 15px;
+	display: inline-block;
+	width: 100%;
+	background-color: #55acee;
+	color: #ffffff;
+	position: relative;
+	text-decoration: none;
+	font-family: 'Arvo', serif;
+}
+.panel-heading a.collapsed {
+	color: #ffffff;
+	background-color: #333333;
+}
+.panel-heading a:after {
+	font-family: "FontAwesome";
+	content: "\f147";
+	position: absolute;
+	right: 15px;
+	font-size: 14px;
+	font-weight: 300;
+	top: 50%;
+	line-height: 1;
+	margin-top: -7px;
+}
+.panel-heading a.collapsed:after {
+	content: "\f196";
+}
+.panel-heading a:hover {
+	text-decoration: none;
+	background-color: #55acee;
+	color: #ffffff;
+}
+.panel-title a i {
+	padding-right: 10px;
+	font-size: 20px;
+}
+.panel-heading .panel-title a
+{
+	padding-left: 10px;
+}
+
+/* scrolltotop button */
+.scrollToTop{
+	padding:10px; 
+	background: whiteSmoke;
+	position:fixed;
+	bottom:0px;
+	right:-5px;
+	display:none;
+	background: url('img/arrow_up.png') no-repeat 0px 20px;
+}
+
+/*table without border*/
+.borderless tbody tr td
+{
+	border: none;
+	font-family: 'Arvo', serif;
+}
+
+@media screen(max-width: 768px) {
+.borderless tbody tr td
+{
+	border: none;
+	font-family: 'Arvo', serif;
+}	
+}
+
+/*TEXTBOX BORDER RADIUS*/
+.input-sm
+{
+	-webkit-border-radius: 15em;
+	-moz-border-radius: 15em;
+	-ms-border-radius: 15em;
+	-o-border-radius: 15em;
+	border-radius: 15px;
+}
+
+hr.small
+{
+	max-width:100px;
+	margin:15px auto;
+	border-width:4px;
+	border-color:#fff;
+}
+
+hr.divider
+{
+	max-width:100px;
+	margin:15px auto;
+	border-width:4px;
+	border-color:#434A54;
+}
+
+.section-heading {
+  margin: 60px 0 80px;
+  text-align: center;
+}
+
+
+
+/*GALLERY SECTION*/
+section#gallery .filter {
+  text-align: center;
+}
+section#gallery .filter a {
+  display: inline-block;
+  padding: 7px 20px;
+  text-decoration: none;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+  margin: 10px 5px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+section#gallery .filter a {
+  border: 2px solid #cccccc;
+  color: #999999;
+}
+section#gallery .filter a:hover {
+  color: #ffffff;
+  background: #399F99;
+  border-color: #399F99;
+}
+section#gallery .filter a.active {
+  color: #ffffff;
+  background: #399F99;
+  border-color: #399F99;
+}
+
+
+/*order now button*/
+.odrbtn
+{
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.odrbtn:hover {
+  color: #ffffff;
+  background: #399F99;
+  border-color: #399F99;
+}
+
+
+
+/*SAMACHAR 24*7*/
+.img-float
+{
+	padding-right: 10px;
+	float: left;
+}
+
+.hrule
+{
+	margin: 5px;
+}
+
+.head-center
+{
+	text-align: center;
+	font-family: 'Arvo', serif;
+}
