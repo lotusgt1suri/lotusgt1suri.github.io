@@ -1,0 +1,235 @@
+
+		/* NAVIGATION_LINK 
+		=================================== */
+		.navbar .nav > li> a
+		{
+			color:#fff;
+			font-family: 'Vollkorn', serif;
+			font-size:17px;	
+			/* width:100%; */
+		}
+		.navbar .nav > li> a:hover
+		{
+			color: #FFA400 ;
+			text-decoration:underline;
+			background-color:#000000;
+		}
+		
+		/* FLYOUT_NAVIGATION */
+		.dropdown-menu .sub-menu
+		{
+			left: 100%;
+			position: absolute;
+			top: 0;
+			visibility: hidden;
+			margin-top: -1px;
+		}
+
+		/* MAIN_CAROUSEL 
+		================================================ */
+		.carousel-inner .active.left { left: -100%; }
+		.carousel-inner .next        { left:  100%; }
+		.carousel-inner .prev        { left: -100%; }
+		.carousel-control.left,.carousel-control.right {background-image:none;}
+		
+		
+		.dropdown-menu li:hover .sub-menu 
+		{
+			visibility: visible;
+		}
+
+		.dropdown:hover .dropdown-menu 
+		{
+			display: block;
+		}
+
+		/* .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu 
+		{
+			margin-top: 0;
+		} */
+		
+		
+		
+		/* CONNECT_WITH_US 
+		=================================== */
+		a>i:hover
+		{
+			color:#fff;
+			font-size:14px;
+			background-color:#000;
+			border-radius: 5px 10px;
+		}
+		
+		/* BASE_FOOTER 
+		=================================== */
+		.divFooter
+		{
+			text-align:center;
+			color:#000000;
+			font-family: 'Droid Serif', serif;
+		}
+		h5
+		{
+			color:#fff;
+			text-align:center;
+		}
+		
+		/* PARAGRAPGH_AREA 
+		=================================== */
+		.para
+		{
+			text-align:center;
+			color:#000;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+		
+		.fonthead
+		{
+			/*font-family: 'Droid Serif', serif;*/
+			font-family: 'Philosopher', sans-serif;
+			color:#000;
+			font-size:1.2em;
+		}
+		
+		/* BUTTON_BORDER 
+		====================================== */
+		.btn
+		{
+			border-radius:10px; 
+			-webkit-border-radius:0px; 
+			-moz-border-radius:0px;
+		}
+		/* BUTTON_BORDER 
+		====================================== */
+		.breadcrumb
+		{
+			font-family: 'Arvo', serif;
+		}
+		/* FORM_CONTROL 
+		====================================== */
+		.form-control
+		{
+			-webkit-border-radius: 0;
+			 -moz-border-radius: 0;
+			  border-radius: 0;
+		}
+		.documents
+		{
+			margin-top:0px;
+		}
+		.nav-item
+		{
+			font-family: 'Arvo', serif;
+		}
+
+	/* 	WE_OFFER_SLIDER
+================================================================= */
+		#owl-demo .item
+		{
+		  background: #fff;
+		  padding: 0px 10px;
+		  margin: 10px;
+		  color: #FFFFFF;
+		  -webkit-border-radius: 3px;
+		  -moz-border-radius: 3px;
+		  border-radius: 3px;
+		  text-align: center;
+		  height:100px
+		}
+		
+		.customNavigation
+		{
+			text-align: center;
+		}
+		
+		/* use styles below to disable ugly selection */
+		.customNavigation a
+		{
+		  -webkit-user-select: none;
+		  -khtml-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		}
+
+/* ABOUT_US_PAGE 
+=================================================================== */		
+		.abouthead
+		{
+			font-family: 'Philosopher', sans-serif;
+			color:#22A7F0;
+		}
+		.subContent
+		{
+			font-family: 'Libre Baskerville', serif;
+			color:#FFA400;
+		}
+		p> small
+		{
+			color:#000;
+			font-family: 'Arvo', serif;
+			font-size:1em;
+		}	
+		#para1 p
+		{
+			text-align:justify;
+		}
+		
+/* CONTACT_US_PAGE 
+=================================================================== */
+		label
+		{
+			font-family: 'Aldrich', sans-serif;
+			color:#C93756;
+		}
+		.contact
+		{
+			font-family: 'Philosopher', sans-serif;
+		}
+		.smallcolor
+		{
+			color:#000000;
+			font-family: 'Arvo', serif;
+		}	
+		/*label
+		{
+			color:#C93756;
+		}*/
+		div>small
+		{
+			font-family: 'Arvo', serif;
+		}
+	/* DIGITAL_MARKETING 
+=================================================================== */
+.dmContent
+	{
+		font-family: 'Libre Baskerville', serif;
+		color:#003171;
+	}
+	table
+	{
+		font-family: 'Arvo', serif;
+		color:#000;
+	}
+	#para1 p
+	{
+		text-align:justify;
+		font-family: 'Arvo', serif;
+		color:#000;
+	}
+	.port
+	{
+		font-size: 1.5em;
+	}
+
+	.portpara
+	{
+		font-size: 1.5em;
+		text-align: justify;
+	}
+	.portf
+	{
+		font-family: 'Philosopher', sans-serif;
+		color:#000;
+	}
