@@ -1,0 +1,155 @@
+body
+{
+/*	padding-top:50px;*/
+}
+.block
+{
+    padding: 50px 0px 0px;   
+}
+
+.carousel .item {
+-webkit-transition: opacity 1s;
+-moz-transition: opacity 1s;
+-ms-transition: opacity 1s;
+-o-transition: opacity 1s;
+transition: opacity 1s;
+}
+.carousel .active.left, .carousel .active.right {
+left:0;
+opacity:0;
+z-index:2;
+}
+.carousel .next, .carousel .prev {
+left:0;
+opacity:1;
+z-index:1;
+}
+
+p
+{
+	font-family: 'Arvo', serif;
+	text-align: justify;
+	/*overflow: auto;*/
+}
+
+small
+{
+	font-family: 'Arvo', serif;
+}
+
+.navbar .nav>li>a
+{
+	font-size: 1.1em;
+	font-family: 'Aldrich', sans-serif;
+	color: #8F1D21;
+}
+.navbar .nav>li>a:hover
+{
+	color: #fff;
+	background-color: #4D8FAC;
+}
+
+strong
+{
+	font-family: 'Philosopher', sans-serif;
+	color: #F9690E;
+}
+
+.grid
+{
+	font-family: 'Cinzel', serif;
+	font-size: 20px;
+	color: #26A65B ;
+}
+
+.equal
+{
+	height:300px;
+	overflow: auto;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.428571429;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    background-color: #19B5FE;
+}
+
+.subhead
+{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div > ul >li
+{
+	font-family: 'Ubuntu', sans-serif;	
+}
+
+div > ol > li
+{
+	font-family: 'Arvo', serif;
+}
+
+.para
+{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+.csp
+{
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+}
+
+.scrollToTop{
+	width:50px; 
+	height:50px;
+	padding:10px; 
+	text-align:right; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	display:none;
+	background: url('logo/arrow_up.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+h3
+{
+	text-align:center;
+}
+h1
+{
+	text-align: center;
+}
+.modal 
+{
+	top: 15%; 
+}
+
+.thumbnail
+{
+	opacity: 0.5;
+}
+
+.thumbnail:hover
+{
+	opacity: 1;
+}
