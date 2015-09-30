@@ -1,0 +1,337 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+}
+
+.navbar
+{
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ie-border-radius: 0;
+	border-radius: 0;
+}
+.navbar .navbar-brand
+{
+	font-size: 2em;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.para
+{
+	border:10px solid hsla(0,0%,80%,.5);
+	background-color: white;
+	background-clip: padding-box;
+	padding:5px;
+}
+
+.para1
+{
+	border:10px solid rgba(25%,25%,50%,0.5);
+	background-clip: padding-box;
+	padding:5px;
+}
+
+.multiple-border
+{
+	box-shadow: 10px 10px 10px 0 #666, 10px 10px 10px 0 orange;
+	background-color: #333;
+	color:#fff;
+	padding:10px;
+	text-align: justify;
+}
+
+.multiple-border-2
+{
+	margin:5px;
+	box-shadow: 0 0 0 5px #03A678, 
+	0 0 0 10px orange,
+	0 0 0 15px green;
+	background-color: #333;
+	color:#fff;
+	padding:10px;
+	text-align: justify;
+}
+
+.outline-border
+{
+	border:2px dashed #fff;
+	outline:10px solid #333;
+	background-color: #333;
+	color:#fff;
+	padding:10px;
+	text-align: justify;
+}
+
+.inner-rounding
+{
+
+	background: tan;
+	border-radius: .8em;
+	padding: 1em;
+	box-shadow: 0 0 0 .6em #655;
+	/*outline: .6em solid #655;*/
+	
+	/*background-color: #333;
+	border-radius: 25px;
+	outline:5px solid red;
+	border:20px solid green;
+	color:#fff;
+	padding:15px;
+	text-align: justify;*/
+}
+
+.focus
+{
+	background-color: #26C281;
+	letter-spacing: 3px;
+	padding:40px;
+	background-position: calc(100% - 20px) calc(100% - 10px);
+}
+.focus-text
+{
+	font-weight: 600;
+	font-size: 3em;
+	color:#000;
+	background:#333;
+}
+.focus-area
+{
+	background:transparent;
+	border: 2px solid #fff;
+	height: 46px;
+	width: 45px;
+	position: relative;
+	transform:translate(445px, 66px);
+	-webkit-animation-name: focus;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	/*/* Standard syntax */
+	animation-name: focus;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
+@keyframes focus
+{
+	0%{left:0px; top:0px;}
+	50%{left:125px; top:0px;}
+	100%{left:0px; top:0px;}
+}
+
+
+.striped-background
+{
+	background: linear-gradient(#789, #000);
+	padding:50px;
+	color:#fff;
+}
+
+.striped-background-1
+{
+	background: linear-gradient(#f89 30%, #000 70%);
+	padding:50px;
+	color:#fff;
+}
+
+#color-col .col-md-4
+{
+	padding:0 0;
+}
+
+.color-timing img 
+{ 
+	filter: grayscale(1); 
+	-webkit-filter: grayscale(1); 
+	-moz-filter: grayscale(1); 
+	-o-filter: grayscale(1); 
+	-ms-filter: grayscale(1); 
+	-webkit-transition:0.3s; 
+	transition: 0.3s; 
+}
+.color-timing img:hover 
+{ 
+	filter: grayscale(0); 
+	-webkit-filter: grayscale(0); 
+	-moz-filter: grayscale(0); 
+	-o-filter: grayscale(0); 
+	-ms-filter: grayscale(0); 
+	-webkit-transition:0.3s; 
+	transition: 0.3s; 
+}
+
+
+.radius-box-1
+{
+	background:linear-gradient(#234 , #987);
+	font-size: 1.5em;
+	color:#fff;
+	line-height: 150px;
+	width:200px;
+	height:150px;
+	border-radius: 50%;
+}
+
+.radius-box-2
+{
+	background:linear-gradient(#234 , #987);
+	font-size: 1.5em;
+	color:#fff;
+	line-height: 150px;
+	width:250px;
+	height:200px;
+	border-radius: 50%;
+}
+
+.radius-box-3
+{
+	background:linear-gradient(#234 , #987);
+	font-size: 1.5em;
+	color:#fff;
+	line-height: 150px;
+	width:200px;
+	height:150px;
+	border-radius: 50% / 100% 100% 0 0;
+}
+
+.radius-box-4
+{
+	background:linear-gradient(#234 , #987);
+	font-size: 1.5em;
+	color:#fff;
+	line-height: 150px;
+	width:200px;
+	height:150px;
+	border-radius: 100% 0 0 100% / 50%;
+}
+
+.radius-box-5
+{
+	background:linear-gradient(#234 , #987);
+	font-size: 1.5em;
+	color:#fff;
+	line-height: 150px;
+	width:200px;
+	height:150px;
+	border-radius: 100% 0 0 0;
+}
+
+.radius-box-6
+{
+	background:linear-gradient(#234 , #987);
+	font-size: 1.5em;
+	color:#fff;
+	line-height: 150px;
+	width:200px;
+	height:150px;
+	border-radius: 0 100% 0 0;
+}
+
+.parallelograms
+{
+	background:orange;
+	font-size: 1.5em;
+	color:#fff;
+	line-height: 100px;
+	height: 100px;
+	transform:skewX(-10deg);
+}
+
+.parallelograms .parallelograms-text
+{
+	transform:skewX(10deg);
+}
+
+.parallelograms-btn
+{
+	font-size: 1.5em;
+	line-height: 50px;
+	height: 100px;
+	transform:skewX(-10deg);
+}
+
+
+
+@keyframes blink-smooth { 50% { color: transparent } }
+.blinking 
+{ 
+	animation: 1s blink-smooth infinite steps(1);
+}
+.blinking-1
+{ 
+	animation-name:blink-smooth;
+	animation-duration:1.3s;
+	animation-iteration-count:infinite;
+	/*animation:1.3s blink-smooth infinite; */
+}
+
+.blinking-line
+{
+	/*font-weight: 400;*/
+	font-size: 5em;
+}
+
+
+@keyframes typing
+{
+	from{ width:1px; }
+}
+
+@keyframes blink
+{
+	50% { border-color: transparent; }
+}
+
+.typing-heading-1
+{
+	width:27ch;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right:.09em solid;
+	animation: 	typing 6s steps(27), blink 1s steps(1) infinite;
+}
+
+.typing-heading-2
+{
+
+	width:23ch;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right:.09em solid;
+	animation: 	typing 6s steps(23), blink 1s steps(1) infinite;
+	animation-delay:8s;
+	animation-fill-mode: both;
+}
+.typing-heading-3
+{
+	width:16ch;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right:.09em solid;
+	overflow-x:hidden;
+	animation: 	typing 6s steps(16), blink 1s steps(1) infinite;
+	animation-delay:16s;
+	animation-fill-mode: backwards;
+}
+
+.curved-cutout-corners
+{
+	background: #58a;
+	background:
+	radial-gradient(circle at top left,
+		transparent 15px, #58a 0) top left,
+	radial-gradient(circle at top right,
+		transparent 15px, #58a 0) top right,
+	radial-gradient(circle at bottom right,
+		transparent 15px, #58a 0) bottom right,
+	radial-gradient(circle at bottom left,
+		transparent 15px, #58a 0) bottom left;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	height:200px;
+	font-size: 5em;
+}
