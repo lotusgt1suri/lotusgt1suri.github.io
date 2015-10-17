@@ -1,0 +1,241 @@
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.8;
+	color:#555;
+}
+
+
+/*----------  NAVIGATION BAR  ----------*/
+.navbar 
+{
+  margin-top:-20px;
+  border-radius: 0px !important;
+}
+.navbar .nav li a
+{
+  font-family: "Raleway";
+  font-weight: 200;
+}
+
+
+.section-block
+{
+	padding:80px 0;
+}
+
+.container-box
+{
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 20px;
+}
+#memberBtn
+{
+  margin-top: -40px;
+}
+
+#contactBtn
+{
+  margin-top: -40px;
+}
+
+.btn-orange
+{
+  border:2px solid #ec971f;
+  border-radius: 25px !important;
+  color:#ec971f;
+  background-color: transparent;
+  transition:0.2s linear all;
+}
+
+/*CAROUSEL LEFT RIGHT CIRCLE BUTTON*/
+
+.carousel {
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  line-height: 1;
+}
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  margin-top: -20px;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  background: #222222;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.carousel-control.right {
+  left: auto;
+  right: 15px;
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+
+#myTab1 li a
+{
+  background:#333;
+  color:#fff;
+}
+
+#myTab1 li a:hover
+{
+  background:#ec971f;
+  color:#fff;
+}
+
+/*==============================================
+=            NEWS AND VIDEO SECTION            =
+==============================================*/
+
+#news_video
+{
+  background:url(../img/bg.jpg);
+}
+
+#news_video h2
+{
+  color:#fff;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.caption
+{
+  color:#fff;
+  text-align: center;
+  margin:10px;
+}
+
+.fvideo{margin-top:25px;margin-bottom:20px;}.fvideo iframe{width:100%;height:250px;border:0px;}
+#carouselNews{margin-top:25px;margin-bottom:20px;}
+
+#registerSection
+{
+  background:url(../img/com.png)no-repeat;
+}
+
+.registerInfo
+{
+  background:orange;
+  color:#fff;
+  transform:skewX(-10deg);
+  padding:5px;
+}
+
+
+#registerSection h3
+{
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+}
+
+#partners h2
+{
+  background:#6E6E6E;
+    color:#fff;
+  font-family: 'Philosopher', sans-serif;
+}
+#partners
+{
+  background:#6E6E6E;
+}
+#partners li
+{
+  list-style-type: none;
+  display:inline-block;
+  margin:20px;
+}
+
+
+#contact h2
+{
+  font-family: 'Philosopher', sans-serif;
+}
+#contact h4
+{
+  font-family: "Raleway", sans-serif;
+}
+
+#contact .address-info .fa
+{
+  color:#F62459;
+}
+
+
+
+/*======================================
+=            FOOTER SECTION            =
+======================================*/
+footer {
+  color:#999999;
+  background-color: #333333;
+  bottom: 0;
+  line-height: 1.5em;
+  padding:25px;
+  font-weight: 600;
+}
+
+footer h4
+{
+  padding:15px 0;
+  font-weight: 800;
+  color:#FFFFFF;
+}
+
+footer span i
+{
+  background-color: #256;
+  transition:0.3s linear all;
+}
+footer span i:hover
+{
+  background-color: #654;
+  transition:0.3s linear all;
+}
+
+footer #quickLinks a
+{
+  margin-left: -15px;
+  text-align: left;
+  display:block;
+  color:#999999;
+  font-weight: bold;
+}
+
+footer #quickLinks a:hover
+{
+  color:#FFFFFF;
+}
+
+.copyright
+{
+  color:#FFFFFF;
+  font-weight: bold;
+  background-color: #000000;
+  padding:10px;
+}
